@@ -1,0 +1,11 @@
+{
+  "name": "@ignite-ui/eslint-config",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "eslint": "^8.57.1",
+    "prettier-plugin-tailwindcss": "^0.6.9"
+  }
+}
