@@ -1,4 +1,4 @@
-import { ComponentProps } from "react";
+import { ComponentProps, ElementType } from "react";
 import { tv, VariantProps } from "tailwind-variants";
 
 const box = tv({
@@ -7,10 +7,14 @@ const box = tv({
 	]
 })
 
-export type BoxProps = ComponentProps<'div'> & VariantProps<typeof box>
+type BoxType = ComponentProps<'div'> & VariantProps<typeof box>
 
-export const Box = ({ className, ...props }: BoxProps) => {
+export interface BoxProps extends BoxType {
+	as?: ElementType
+}
+
+export const Box = ({ className, as: Box = 'div', ...props }: BoxProps) => {
 	return (
-		<div {...props} className={box({ className })} />
+		<Box {...props} className={box({ className })} />
 	)
 }
