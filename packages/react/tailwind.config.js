@@ -83,7 +83,7 @@ module.exports = {
         40: '10rem',
         64: '16rem',
         80: '20rem',
-      }
+      },
     },
   },
   plugins: [],
