@@ -32,7 +32,7 @@ export const AvatarImage = ({ className, ...props }: AvatarImageType) => {
 
 export const avatarFallback = tv({
 	base: [
-		'w-[100%] h-[100%] flex items-center justify-center bg-gray-600 text-gray-800'
+		'w-[100%] h-[100%] flex items-center justify-center bg-gray600 text-gray800'
 	]
 })
 type AvatarFallbackType = ComponentProps<typeof Avatar.Fallback> & VariantProps<typeof avatarFallback>

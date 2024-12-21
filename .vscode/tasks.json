@@ -3,12 +3,10 @@
 	"tasks": [
 		{
 			"type": "npm",
-			"script": "build",
-			"path": "packages/tokens",
-			"group": "build",
+			"script": "dev",
 			"problemMatcher": [],
-			"label": "npm: build - packages/tokens",
-			"detail": "tsup src/index.ts --format esm,cjs --dts"
+			"label": "npm: dev",
+			"detail": "turbo run dev --parallel"
 		}
 	]
 }

@@ -3,7 +3,7 @@ import { tv, VariantProps } from "tailwind-variants"
 
 const heading = tv({
 	base:[
-		'font-default leading-base m-0 text-gray-100'
+		'font-default leading-base m-0 text-gray100'
 	],
 	variants: {
 		size: {

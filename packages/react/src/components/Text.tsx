@@ -3,7 +3,7 @@ import { tv, VariantProps } from "tailwind-variants"
 
 const text = tv({
 	base:[
-		'font-default leading-shorter m-0 text-gray-100'
+		'font-default leading-shorter m-0 text-gray100'
 	],
 	variants: {
 		size: {
