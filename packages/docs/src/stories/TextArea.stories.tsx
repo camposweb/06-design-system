@@ -10,7 +10,7 @@ export default {
 	decorators: [
 		(Story) => {
 			return (
-				<Box as='label' className={twMerge('flex flex-col')}>
+				<Box as='label' className={twMerge('flex flex-col gap-2')}>
 					<Text size='sm'>Observations</Text>
 					{Story()}
 				</Box>

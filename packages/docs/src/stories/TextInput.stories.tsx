@@ -9,7 +9,7 @@ export default {
 	decorators: [
 		(Story) => {
 			return (
-				<Box as='label' className='flex flex-col'>
+				<Box as='label' className='flex flex-col gap-2'>
 					<Text size='sm'>Email address</Text>
 					{Story()}
 				</Box>
