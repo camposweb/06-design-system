@@ -28,8 +28,8 @@ export interface HeadingProps extends HeadingType {
 }
 
 
-export const Heading = ({ className , size, as: Heading = 'h2', ...props }: HeadingProps) => {
+export const Heading = ({ className , size, as: Component = 'h2', ...props }: HeadingProps) => {
 	return (
-		<Heading {...props}  className={heading({ className, size })} />
+		<Component {...props}  className={heading({ className, size })} />
 	)
 }

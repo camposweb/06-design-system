@@ -28,8 +28,8 @@ export interface ButtonProps extends ButtonType {
 	as?: ElementType
 }
 
-export const Button = ({ className, as: Button = 'button', variant, size, ...props }: ButtonProps) => {
+export const Button = ({ className, as: Component = 'button', variant, size, ...props }: ButtonProps) => {
 	return (
-		<Button {...props} className={button({className, variant, size})} />
+		<Component {...props} className={button({className, variant, size})} />
 	)
 }

@@ -1,4 +1,4 @@
-import { ComponentProps, ElementType } from "react"
+import { Component, ComponentProps, ElementType } from "react"
 import { tv, VariantProps } from "tailwind-variants"
 
 const text = tv({
@@ -34,8 +34,8 @@ export interface TextProps extends TextType {
 }
 
 
-export const Text = ({ className , size, as: Text = 'p', ...props }: TextProps) => {
+export const Text = ({ className , size, as: Component = 'p', ...props }: TextProps) => {
 	return (
-		<Text {...props}  className={text({ className, size })} />
+		<Component {...props}  className={text({ className, size })} />
 	)
 }

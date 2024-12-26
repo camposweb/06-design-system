@@ -15,8 +15,8 @@ export interface BoxProps extends BoxType {
 	as?: ElementType
 }
 
-export const Box = ({ className, as: Box = 'div', ...props }: BoxProps) => {
+export const Box = ({ className, as: Component = 'div', ...props }: BoxProps) => {
 	return (
-		<Box {...props} className={twMerge(box({className}), className)} />
+		<Component {...props} className={twMerge(box({className}), className)} />
 	)
 }
