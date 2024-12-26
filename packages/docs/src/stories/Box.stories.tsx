@@ -7,7 +7,14 @@ export default {
   component: Box,
   args: {
 		children:  <Text>Testando o elemento Box</Text>
-	}
+	},
+  argTypes: {
+    children: {
+      control: {
+        type:  'inline-radio'
+      }
+    },
+  },
 } as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {}
