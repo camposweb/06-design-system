@@ -35,7 +35,7 @@ export function Label({ className, as = 'label', size, ...props }: LabelProps) {
 
 const steps = tv({
   base: [
-    'grid mt-2 gap-2'
+    'grid mt-2 gap-2 grid-cols-4'
   ]
 })
 
