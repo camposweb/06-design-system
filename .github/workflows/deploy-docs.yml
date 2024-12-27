@@ -20,6 +20,9 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+        env: 
+          TURBO_TOKEN: VtoD2IWivsuwTGaUdhP6dBLy
+          TURBO_TEAM: camposwebs-projects
 
       - name: Deploy storybook
         working-directory: ./packages/docs

@@ -1,6 +1,6 @@
-import '@ignite-ui/react/dist/index.css'
+import '@camposweb-ignite-ui/react/dist/index.css'
 import type { Meta, StoryObj } from '@storybook/react';
-import { Box, Text, TextArea, TextAreaProps} from '@ignite-ui/react'
+import { Box, Text, TextArea, TextAreaProps} from '@camposweb-ignite-ui/react'
 import { twMerge } from 'tailwind-merge';
 
 export default {

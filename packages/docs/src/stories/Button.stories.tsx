@@ -1,6 +1,6 @@
-import '@ignite-ui/react/dist/index.css'
+import '@camposweb-ignite-ui/react/dist/index.css'
 import type { Meta, StoryObj } from '@storybook/react';
-import { Button, ButtonProps } from '@ignite-ui/react'
+import { Button, ButtonProps } from '@camposweb-ignite-ui/react'
 import { ArrowRight } from 'lucide-react';
 
 export default {

@@ -1,6 +1,6 @@
-import '@ignite-ui/react/dist/index.css'
+import '@camposweb-ignite-ui/react/dist/index.css'
 import type { Meta, StoryObj } from '@storybook/react';
-import { Heading, HeadingProps} from '@ignite-ui/react'
+import { Heading, HeadingProps} from '@camposweb-ignite-ui/react'
 
 export default {
   title: 'Typography/Heading',

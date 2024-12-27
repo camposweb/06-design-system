@@ -1,6 +1,6 @@
-import '@ignite-ui/react/dist/index.css'
+import '@camposweb-ignite-ui/react/dist/index.css'
 import type { Meta, StoryObj } from '@storybook/react';
-import { Box, MultiStep, MultiStepProps} from '@ignite-ui/react'
+import { Box, MultiStep, MultiStepProps} from '@camposweb-ignite-ui/react'
 
 export default {
   title: 'Form/Multi Step',

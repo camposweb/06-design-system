@@ -1,6 +1,6 @@
-import '@ignite-ui/react/dist/index.css'
+import '@camposweb-ignite-ui/react/dist/index.css'
 import type { Meta, StoryObj } from '@storybook/react';
-import { Text, TextProps} from '@ignite-ui/react'
+import { Text, TextProps} from '@camposweb-ignite-ui/react'
 
 export default {
   title: 'Typography/Text',

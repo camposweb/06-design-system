@@ -1,6 +1,6 @@
-import '@ignite-ui/react/dist/index.css'
+import '@camposweb-ignite-ui/react/dist/index.css'
 import type { Meta, StoryObj } from '@storybook/react';
-import { Box, Text, TextInput, TextInputProps} from '@ignite-ui/react'
+import { Box, Text, TextInput, TextInputProps} from '@camposweb-ignite-ui/react'
 
 export default {
   title: 'Form/Text Input',

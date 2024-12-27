@@ -1,6 +1,6 @@
-import '@ignite-ui/react/dist/index.css'
+import '@camposweb-ignite-ui/react/dist/index.css'
 import type { Meta, StoryObj } from '@storybook/react';
-import { Box, BoxProps, Text} from '@ignite-ui/react'
+import { Box, BoxProps, Text} from '@camposweb-ignite-ui/react'
 
 export default {
   title: 'Surfaces/Box',

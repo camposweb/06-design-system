@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "@camposweb-ignite-ui/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,10 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@camposweb-ignite-ui/eslint-config": "*",
+    "@camposweb-ignite-ui/react": "*",
+    "@camposweb-ignite-ui/tokens": "*",
+    "@camposweb-ignite-ui/ts-config": "*",
     "@storybook/addon-a11y": "^8.4.7",
     "@storybook/addon-postcss": "^2.0.0",
     "lucide-react": "^0.469.0",

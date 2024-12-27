@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/eslint-config",
+  "name": "@camposweb-ignite-ui/eslint-config",
   "main": "index.js",
   "license": "MIT",
   "private": true,

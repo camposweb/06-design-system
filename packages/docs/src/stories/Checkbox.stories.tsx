@@ -1,6 +1,6 @@
-import '@ignite-ui/react/dist/index.css'
+import '@camposweb-ignite-ui/react/dist/index.css'
 import type { Meta, StoryObj } from '@storybook/react';
-import { Box, Text, CheckBox, CheckboxProps} from '@ignite-ui/react'
+import { Box, Text, CheckBox, CheckboxProps} from '@camposweb-ignite-ui/react'
 
 export default {
   title: 'Form/Checkbox',
