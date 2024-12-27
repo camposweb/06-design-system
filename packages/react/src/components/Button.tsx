@@ -3,13 +3,15 @@ import { tv, VariantProps } from "tailwind-variants";
 
 const button = tv({
 	base: [
-		'py-0 px-4 disabled:cursor-not-allowed rounded-sm text-sm font-medium font-default text-center min-w-[120px] box-border flex items-center justify-center gap-2 cursor-pointer'
+		'py-0 px-4 disabled:cursor-not-allowed rounded-sm text-sm font-medium font-default text-center min-w-[120px] box-border flex items-center justify-center gap-2 cursor-pointer',
+		'disabled:cursor-not-allowed',
+		'focus:shadow-sm focus:shadow-gray100'
 	],
 	variants: {
 		variant: {
 			primary: 'text-white bg-ignite500 disabled:bg-gray-200 hover:bg-ignite300',
 			secundary: 'text-ignite300 border-2 border-solid border-ignite500 hover:bg-ignite500 hover:text-white disabled:text-gray200 disabled:bg-gray200',
-			tertiary: 'text-gray100 hover:text-white disabled:text-gray600'
+			tertiary: 'text-gray100 hover:text-white disabled:text-gray600',
 		},
 		size: {
 			sm: 'h-[38px]',

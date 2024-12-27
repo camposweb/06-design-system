@@ -9,7 +9,8 @@ const checkboxContainer = tv({
 		'leading-[0]',
 		'border-2 border-solid border-gray900',
 		'focus:border-2 focus:border-solid focus:border-ignite300',
-		'data-[state=checked]:bg-ignite300'
+		'data-[state=checked]:bg-ignite300',
+		'focus:data-[state=checked]:border-ignite300',
 	]
 })
 

@@ -3,10 +3,19 @@ import { tv, VariantProps } from "tailwind-variants";
 
 const textInputContainer = tv({
 	base: [
-		'bg-gray900 py-3 px-4 rounded-sm border-2 border-solid border-gray900 flex items-baseline',
+		'bg-gray900 py-3 px-4 rounded-sm border-2 border-solid border-gray900 flex items-center',
 		'has-[input:focus]:border-ignite300',
 		'disabled:opacity-50 disabled:cursor-not-allowed'
-	]
+	],
+	variants: {
+		size: {
+			sm: 'py-2 px-3',
+			md: 'py-3 px-4'
+		}
+	},
+	defaultVariants: {
+		size: 'md'
+	}
 })
 
 type TextInputContainerType = ComponentProps<'div'> & VariantProps<typeof textInputContainer>

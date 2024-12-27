@@ -4,7 +4,7 @@ import { tv, VariantProps,  } from "tailwind-variants"
 
 export const avatarContainer = tv({
 	base: [
-		'rounded-full inline-block w-12 h-12 overflow-hidden'
+		'rounded-full inline-block w-16 h-16 overflow-hidden'
 	]
 })
 
