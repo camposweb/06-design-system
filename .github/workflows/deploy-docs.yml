@@ -23,8 +23,8 @@ jobs:
 
       - run: npm run build
         env: 
-          TURBO_TOKEN: VtoD2IWivsuwTGaUdhP6dBLy
-          TURBO_TEAM: camposwebs-projects
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+          TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
 
       - name: Deploy storybook
         working-directory: ./packages/docs
