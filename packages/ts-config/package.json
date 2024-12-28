@@ -1,6 +1,6 @@
 {
   "name": "@camposweb-ignite-ui/ts-config",
-  "version": "4.0.2",
+  "version": "5.0.0",
   "license": "MIT",
   "files": [
     "react.json",

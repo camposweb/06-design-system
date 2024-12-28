@@ -1,5 +1,11 @@
 # @camposweb-ignite-ui/react
 
+## 6.0.0
+
+### Major Changes
+
+- d5e5025: Add adjust config
+
 ## 5.0.2
 
 ### Patch Changes
