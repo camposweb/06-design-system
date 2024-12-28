@@ -1,5 +1,11 @@
 # @camposweb-ignite-ui/react
 
+## 5.0.2
+
+### Patch Changes
+
+- 2ecc743: Adjust
+
 ## 5.0.1
 
 ### Patch Changes
