@@ -46,7 +46,8 @@ const input = tv({
 		'font-default text-sm text-white font-regular bg-transparent border-0 w-full',
 		'focus:outline-0 focus-within:outline-0 focus-visible:outline-0',
 		'disabled:cursor-not-allowed',
-		'placeholder:text-gray400'
+		'placeholder:text-gray400',
+		'focus:outline-none'
 	]
 })
 

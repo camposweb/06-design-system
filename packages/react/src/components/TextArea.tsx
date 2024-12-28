@@ -7,7 +7,8 @@ const textArea = tv({
 		'has-[input:focus]:border-ignite300 focus:outline-0 focus:border-ignite300',
 		'disabled:opacity-50 disabled:cursor-not-allowed',
 		'placeholder:text-gray400',
-		'font-regular resize-y max-h-20 text-white'
+		'font-regular resize-y max-h-20 text-white',
+		'focus:outline-none'
 	]
 })
 
