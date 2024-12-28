@@ -1,5 +1,11 @@
 # @camposweb-ignite-ui/react
 
+## 7.0.1
+
+### Patch Changes
+
+- modific component Box
+
 ## 7.0.0
 
 ### Major Changes
