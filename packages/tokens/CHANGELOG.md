@@ -1,5 +1,11 @@
 # @camposweb-ignite-ui/tokens
 
+## 3.0.1
+
+### Patch Changes
+
+- Adjust
+
 ## 3.0.0
 
 ### Major Changes

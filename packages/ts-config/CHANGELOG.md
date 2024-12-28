@@ -1,5 +1,11 @@
 # @camposweb-ignite-ui/ts-config
 
+## 4.0.1
+
+### Patch Changes
+
+- Adjust
+
 ## 4.0.0
 
 ### Major Changes
