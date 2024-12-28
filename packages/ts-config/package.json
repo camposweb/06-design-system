@@ -6,8 +6,5 @@
   "files": [
     "react.json",
     "*.json"
-  ],
-  "exports": {
-    "./react": "./react.json"
-  }
+  ]
 }
