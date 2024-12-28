@@ -1,5 +1,11 @@
 # @camposweb-ignite-ui/react
 
+## 7.0.0
+
+### Major Changes
+
+- 3239497: Adjust component TextInput and Textarea focus
+
 ## 6.0.0
 
 ### Major Changes
