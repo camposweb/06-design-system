@@ -30,8 +30,8 @@ module.exports = {
         ignite900: '#00291D',
       },
       fontFamily: {
-        default: 'Roboto, sans-serif',
-        code: 'monospace',
+        default: ['Roboto', 'sans-serif'],
+        code: ['monospace'],
       },
       fontWeight: {
         regular: '400',
