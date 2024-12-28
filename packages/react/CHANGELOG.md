@@ -1,5 +1,11 @@
 # @camposweb-ignite-ui/react
 
+## 7.0.2
+
+### Patch Changes
+
+- adjust component TextInput
+
 ## 7.0.1
 
 ### Patch Changes
