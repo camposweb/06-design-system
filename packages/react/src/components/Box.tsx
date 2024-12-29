@@ -1,4 +1,4 @@
-import { ComponentProps, ElementType } from "react";
+import { ComponentProps, ElementRef, ElementType, forwardRef } from "react";
 import { twMerge } from "tailwind-merge";
 import { tv, VariantProps } from "tailwind-variants";
 
@@ -15,8 +15,8 @@ export interface BoxProps extends BoxType {
 	as?: ElementType
 }
 
-export const Box = ({ className, as: Component = 'div', ...props }: BoxProps) => {
+export const Box = forwardRef<HTMLDivElement, BoxProps>(({ className, as: Component = 'div', ...props }: BoxProps, ref) => {
 	return (
-		<Component {...props} className={twMerge(box({className}), className)} />
+		<Component {...props} ref={ref} className={twMerge(box({className}), className)} />
 	)
-}
+})

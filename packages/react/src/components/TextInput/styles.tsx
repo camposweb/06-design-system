@@ -1,4 +1,4 @@
-import { ComponentProps } from "react";
+import { ComponentProps, forwardRef } from "react";
 import { tv, VariantProps } from "tailwind-variants";
 
 const textInputContainer = tv({
@@ -53,8 +53,8 @@ const input = tv({
 
 type InputType = ComponentProps<'input'> & VariantProps<typeof input>
 
-export const Input = ({className, ...props}: InputType) => {
+export const Input = forwardRef<HTMLInputElement, InputType>(({className, ...props}: InputType, ref) => {
   return (
-    <input className={input({className})} {...props} />
+    <input {...props} ref={ref}  className={input({className})}  />
   )
-}
+})

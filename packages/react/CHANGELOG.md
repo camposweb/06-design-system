@@ -1,5 +1,26 @@
 # @camposweb-ignite-ui/react
 
+
+=======
+## 7.1.0
+
+### Minor Changes
+
+- Add component Toast
+
+## 7.0.2
+
+### Patch Changes
+
+- adjust component TextInputy
+
+## 7.0.1
+
+### Patch Changes
+
+- modific component Box
+
+
 ## 7.0.0
 
 ### Major Changes

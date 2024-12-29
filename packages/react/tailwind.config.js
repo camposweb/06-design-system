@@ -109,6 +109,20 @@ module.exports = {
 					from: { opacity: "0", transform: "translateX(-2px)" },
 					to: { opacity: "1", transform: "translateX(0)" },
 				},
+        hide: {
+					from: { opacity: "1" },
+					to: { opacity: "0" },
+				},
+				slideInToastFrame: {
+					from: {
+						transform: "translateX(calc(100% + var(--viewport-padding)))",
+					},
+					to: { transform: "translateX(0)" },
+				},
+				swipeOutToastFrame: {
+					from: { transform: "translateX(var(--radix-toast-swipe-end-x))" },
+					to: { transform: "translateX(calc(100% + var(--viewport-padding)))" },
+				},
       },
       animation: {
         slideIn: 'slideIn 0.5s ease-in-out',
@@ -117,6 +131,9 @@ module.exports = {
 				slideLeftAndFade: 'slideLeftAndFade 400ms cubic-bezier(0.16, 1, 0.3, 1)',
 				slideUpAndFade: 'slideUpAndFade 400ms cubic-bezier(0.16, 1, 0.3, 1)',
 				slideRightAndFade: 'slideRightAndFade 400ms cubic-bezier(0.16, 1, 0.3, 1)',
+        hide: "hide 100ms ease-in",
+				slideInToast: "slideInToastFrame 150ms cubic-bezier(0.16, 1, 0.3, 1)",
+				swipeOutToast: "swipeOutToastFrame 100ms ease-out",
       },
       dropShadow: {
         'tooltip-content': '4px 16px 24px rgba(0, 0, 0, 0.25)'
