@@ -1,5 +1,7 @@
 # @camposweb-ignite-ui/react
 
+
+=======
 ## 7.1.0
 
 ### Minor Changes
@@ -10,13 +12,14 @@
 
 ### Patch Changes
 
-- adjust component TextInput
+- adjust component TextInputy
 
 ## 7.0.1
 
 ### Patch Changes
 
 - modific component Box
+
 
 ## 7.0.0
 
