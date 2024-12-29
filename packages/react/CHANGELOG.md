@@ -1,5 +1,11 @@
 # @camposweb-ignite-ui/react
 
+## 7.1.0
+
+### Minor Changes
+
+- Add component Toast
+
 ## 7.0.2
 
 ### Patch Changes
