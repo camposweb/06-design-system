@@ -1,4 +1,4 @@
-import { ComponentProps } from "react";
+import { ComponentProps, forwardRef } from "react";
 import { tv, VariantProps } from "tailwind-variants";
 
 const textArea = tv({
@@ -18,8 +18,8 @@ export interface TextAreaProps extends TextAreaType {
 	//as?: ElementType
 }
 
-export const TextArea = ({className, ...props}: TextAreaProps) => {
+export const TextArea = forwardRef<HTMLTextAreaElement, TextAreaProps>(({ className, ...props }: TextAreaProps, ref) => {
 	return (
-		<textarea className={textArea({className})} {...props} />
+		<textarea  {...props} ref={ref}  className={textArea({ className })}/>
 	)
-}
+})
