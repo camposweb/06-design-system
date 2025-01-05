@@ -1,5 +1,11 @@
 # @camposweb-ignite-ui/react
 
+## 7.4.0
+
+### Minor Changes
+
+- Fix README.md
+
 ## 7.3.0
 
 ### Minor Changes
