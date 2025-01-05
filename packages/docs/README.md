@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
+# Design System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este design system foi desenvolvido a partir do módulo de Design System da trilha de ReactJS da Rocketseat para ser utilizado posteriormente para a aplicação Ignite Call do módulo final do treinamento, isso possibilita que os componentes sejam utilizados em outras aplicações com a mesma base de estilos. No desenvolvimento do design system utilizei o [Tsup](https://tsup.egoist.dev/) para facilitar a compilação de typescript para javascript além de suporte a múltiplos formatos, como ESM e CJS, [Turborepo](https://turbo.build/) no qual sua utilidade é o gerenciamento de projetos monorepos, [Lucide](https://lucide.dev/) para ícones, [Radix UI](https://www.radix-ui.com/primitives) que auxiliou para criar alguns componentes,  [tailwind-variants](https://www.tailwind-variants.org/), para criação de componentes utilizando estilização com [TailwindCSS](https://tailwindcss.com/), [tailwind-merge](https://github.com/dcastil/tailwind-merge), biblioteca que a auxilia na criação de componentes e para finalizar [Storybook](https://storybook.js.org/) para documentar todo design system.
+Algo que venho utilizando bastante é a biblioteca da rocketseat [eslint-config-rocketseat](https://github.com/Rocketseat/eslint-config-rocketseat) como uma boa configuração ESlint e formatação com Prettier.
 
-Currently, two official plugins are available:
+#### Plus +
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Adicionando o compoennte Tooltip
+- Adicionando o componente Toast
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![React Badge](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge)
+![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=for-the-badge)
+![Turborepo Badge](https://img.shields.io/badge/Turborepo-EF4444?logo=turborepo&logoColor=fff&style=for-the-badge)
+![Radix UI Badge](https://img.shields.io/badge/Radix%20UI-161618?logo=radixui&logoColor=fff&style=for-the-badge)
+![Lucide Badge](https://img.shields.io/badge/Lucide-F56565?logo=lucide&logoColor=fff&style=for-the-badge)
+![Storybook Badge](https://img.shields.io/badge/Storybook-FF4785?logo=storybook&logoColor=fff&style=for-the-badge)
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+
+
+## Instalando o design system:
+
+
+```javascript
+
+npm install @camposweb-ignite-ui/react
+
+pnpm add @camposweb-ignite-ui/react
+
+yarn add @camposweb-ignite-ui/react
+
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Acessar documentação do design system
+[https://camposweb.github.io/06-design-system/](https://camposweb.github.io/06-design-system/)

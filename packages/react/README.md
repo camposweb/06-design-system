@@ -1,5 +1,3 @@
-![cover](public/cover.png)
-
 # Design System
 
 Este design system foi desenvolvido a partir do módulo de Design System da trilha de ReactJS da Rocketseat para ser utilizado posteriormente para a aplicação Ignite Call do módulo final do treinamento, isso possibilita que os componentes sejam utilizados em outras aplicações com a mesma base de estilos. No desenvolvimento do design system utilizei o [Tsup](https://tsup.egoist.dev/) para facilitar a compilação de typescript para javascript além de suporte a múltiplos formatos, como ESM e CJS, [Turborepo](https://turbo.build/) no qual sua utilidade é o gerenciamento de projetos monorepos, [Lucide](https://lucide.dev/) para ícones, [Radix UI](https://www.radix-ui.com/primitives) que auxiliou para criar alguns componentes,  [tailwind-variants](https://www.tailwind-variants.org/), para criação de componentes utilizando estilização com [TailwindCSS](https://tailwindcss.com/), [tailwind-merge](https://github.com/dcastil/tailwind-merge), biblioteca que a auxilia na criação de componentes e para finalizar [Storybook](https://storybook.js.org/) para documentar todo design system.
