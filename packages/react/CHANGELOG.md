@@ -1,16 +1,23 @@
 # @camposweb-ignite-ui/react
 
+## 7.3.0
+
+### Minor Changes
+
+- Add README.md
+
 <<<<<<< HEAD
 
-=======
-=======
+# =======
+
 ## 7.2.0
 
 ### Minor Changes
 
 - 11c797e: Add ref component TextArea
 
->>>>>>> 488ba92 (feat: Nova versão 7.2.0)
+> > > > > > > 488ba92 (feat: Nova versão 7.2.0)
+
 ## 7.1.0
 
 ### Minor Changes
@@ -28,7 +35,6 @@
 ### Patch Changes
 
 - modific component Box
-
 
 ## 7.0.0
 
